@@ -1,5 +1,5 @@
 require "user.launch"
--- require "user.prettier"
+require "user.prettier"
 require "user.options"
 require "user.keymaps"
 require "user.autocmds"
