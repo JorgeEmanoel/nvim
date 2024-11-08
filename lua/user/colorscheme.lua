@@ -1,14 +1,24 @@
+-- local M = {
+--   "catppuccin/nvim",
+--   name = "catppuccin",
+--   priority = 1000,
+--   opts = {
+--     transparent_background = false,
+--   },
+-- }
+
+-- https://github.com/navarasu/onedark.nvim
 local M = {
-  "catppuccin/nvim",
-  name = "catppuccin",
-  priority = 1000,
+  "navarasu/onedark.nvim",
+  name = "onedark",
   opts = {
-    transparent_background = false,
+    style = "darker",
   },
 }
 
 function M.config()
-  vim.cmd.colorscheme "catppuccin-frappe"
+  -- vim.cmd.colorscheme "catppuccin-frappe"
+  vim.cmd.colorscheme "onedark"
 end
 
 return M
