@@ -29,6 +29,7 @@ keymap("v", ">", ">gv", opts)
 keymap("n", "<C-n>", "<cmd>$tabnew<cr>", opts)
 keymap("n", "<S-Right>", "<cmd>tabn<cr>", opts)
 keymap("n", "<S-Left>", "<cmd>tabp<cr>", opts)
+keymap("n", "gi", vim.lsp.buf.implementation, { desc = "Go to Implementation" })
 
 keymap("x", "p", [["_dP]])
 
