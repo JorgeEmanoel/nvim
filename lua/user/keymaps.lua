@@ -41,3 +41,5 @@ vim.cmd [[:amenu 10.110 mousemenu.References <cmd>lua vim.lsp.buf.references()<C
 
 -- vim.keymap.set("n", "<RightMouse>", "<cmd>:popup mousemenu<CR>")
 vim.keymap.set("n", "<Tab>", "<cmd>:popup mousemenu<CR>")
+
+vim.keymap.set("n", "e", "<cmd>:vsplit<CR> <cmd>Telescope find_files<CR>")
